@@ -1,0 +1,158 @@
+@charset "UTF-8";
+html, body, div, span, figure, img, fieldset,
+a, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, small, strong, dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none; }
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
+  background: #fff; }
+
+img {
+  vertical-align: bottom; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: #00A1E0;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none; }
+
+/* ******************************
+
+    common
+
+****************************** */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.pt32px {
+  padding-top: 32px;
+}
+
+.pb32px {
+  padding-bottom: 32px;
+}
+
+.pb56px {
+  padding-bottom: 56px;
+}
+
+.pb64px {
+  padding-bottom: 64px;
+}
+
+.pl24px {
+  padding-left: 24px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  background: url(../img/background@2x.png) center no-repeat;
+  background-size: cover;
+}
+
+.header-logo {
+  max-width: 1174px;
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+main {
+  padding: 64px 24px 24px;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 840px;
+}
+
+.block-plain {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.block-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.heading-lv1-text {
+  text-align: center;
+  font-size: 36px;
+  color: #012F6E;
+}
+
+.heading-lv2-text {
+  font-size: 24px;
+  color: #012F6E;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: solid 1px #E0E0E0;
+}
+
+.text-plain {
+  font-size: 18px;
+  color: #595959;
+}
+
+.text-link {
+  color: #48a1e3;
+}
+
+.text-color--blue {
+  color: #48a1e3;
+}
+
+/* ******************************
+
+    footer
+
+****************************** */
+footer {
+  background: #012F6E;
+  padding: 24px 40px;
+  color: #ffffff;
+}
+
+.footer-wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.logo--sansan {
+  margin-bottom: 24px;
+}
+
+.footer-wrapper div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+hr {
+  margin-bottom: 56px;
+}
+
+/* SP view */
+@media screen and (max-width: 758px) {
+}
