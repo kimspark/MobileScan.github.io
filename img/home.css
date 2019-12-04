@@ -122,7 +122,7 @@ header {
       mainvisual
 ****************************** */
 .mv {
-  background: url(../img/top_bg.png) top center no-repeat;
+  background: url(../img/bg.png) top center no-repeat;
   background-size: cover; }
 
 .mv_wrapper {
@@ -187,7 +187,7 @@ header {
 
 @media screen and (max-width: 768px) {
   .mv {
-    background: url(../img/top_bg_sp.png) top center no-repeat;
+    background: url(../img/bg.png) top center no-repeat;
     background-size: cover; }
   .mv_wrapper {
     -webkit-flex-flow: column-reverse;
