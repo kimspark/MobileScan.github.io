@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 @font-face {
   font-family: SalesforceSans;
@@ -60,17 +60,17 @@ a:hover {
       header
 ****************************** */
 header {
-  position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-     -moz-justify-content: center;
-      -ms-justify-content: center;
-          justify-content: center;
-            -ms-flex-pack: center;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: left;
+    justify-content: center;
+    -ms-flex-pack: left;
 }
 .header_wrapper {
   position: absolute;
